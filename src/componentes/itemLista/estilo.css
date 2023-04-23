@@ -1,0 +1,46 @@
+.boxTime{
+  background-color: #271177;
+  color: #fff;
+  margin: 25px 10px 0;
+  padding: 5px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #0c0c0c;
+  width: 180px;
+  height: 200px;
+}
+
+.imagemTime{
+  width: 140px;
+  height: 100px;
+  background-color: #fff;
+  object-fit: contain;
+  border-radius: 2px;
+  border: 1px solid #0a0909;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 8px;
+  flex: 1;
+  transition: all 0.5s;
+  cursor: pointer;
+
+}
+
+.imagemTime:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.nomeTime{
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.dataFundada{
+  font-size: 14px;
+}
